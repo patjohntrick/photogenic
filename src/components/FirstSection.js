@@ -3,16 +3,16 @@ import ImgOne from "../imgs/img4.jpg";
 
 const FirstSection = () => {
   return (
-    <section className=" md:flex lg:w-[1024px] lg:m-auto">
-      <div className="image-container order-1 md:w-[70%] lg:w-[90vh]">
+    <section className=" md:flex lg:pt-6">
+      <div className="image-container order-1 md:w-[70%] lg:w-full xl:h-[500px] ">
         <img
           src={ImgOne}
           alt=""
           className=" object-cover h-[50vh] w-full md:h-full"
         />
       </div>
-      <div className="text-container bg-neutral-900 text-neutral-300 flex justify-center items-center h-[65vh] ">
-        <div className="text-div text-white space-y-2 w-[85%] ">
+      <div className="text-container bg-neutral-900 text-neutral-300 flex justify-center items-center h-[65vh] xl:h-[500px]  ">
+        <div className="text-div text-white space-y-2 w-[85%] lg:w-[75%] xl:w-[70%] ">
           <p className=" font-oswald text-3xl font-bold m-auto">
             CREATE AND SHARE YOUR PHOTO STORIES.
           </p>

@@ -5,7 +5,7 @@ import multimedia from "../imgs/multimedia-icon.png";
 
 const FifthSection = () => {
   return (
-    <section className=" lg:grid lg:grid-cols-3 lg:w-[1024px] lg:m-auto ">
+    <section className=" lg:grid lg:grid-cols-3 lg:w-[1024px] lg:py-8 lg:m-auto ">
       <div className="responsive-container w-[300px] m-auto py-12 space-y-6">
         <div className="img-container">
           <img

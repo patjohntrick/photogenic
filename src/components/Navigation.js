@@ -11,14 +11,14 @@ const Navigation = () => {
   console.log(navBar);
   return (
     <nav className=" w-full fixed bg-white z-50 shadow ">
-      <nav className="desktop-nav flex justify-between items-center m-auto min-h-[10vh] shadow px-4 lg:w-[1024px] lg:m-auto lg:shadow-none">
+      <nav className="desktop-nav flex justify-between items-center m-auto min-h-[10vh] shadow px-4 lg:w-[900px] lg:shadow-none xl:w-[1000px] xl:m-auto">
         <div className="logo">
-          <p className=" text-xl font-bold uppercase font-oswald ">
+          <p className=" text-xl lg:text-2xl font-bold uppercase font-oswald ">
             photogenic
           </p>
         </div>
         <div className="nav-links hidden md:block">
-          <ul className="flex font-bold text-sm uppercase space-x-6 text-neutral-800 items-center">
+          <ul className="flex font-bold text-sm uppercase space-x-6 text-neutral-900 items-center">
             <li>gallery</li>
             <li>features</li>
             <li>pricing</li>
@@ -27,7 +27,7 @@ const Navigation = () => {
         <div className="nav-contanct hidden md:block">
           <a
             href=""
-            className=" bg-neutral-900 font-oswald text-neutral-300 py-2 px-4 uppercase font-bold text-xs shadow "
+            className=" bg-neutral-900 font-oswald text-neutral-300 py-2 px-4 uppercase font-bold shadow "
           >
             get an invite
           </a>

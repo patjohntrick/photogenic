@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/style.css";
 import { BsArrowUp } from "react-icons/bs";
 import Img from "../../imgs/img9.jpg";
 
@@ -6,13 +7,17 @@ const FourthSection = () => {
   return (
     <section>
       <div className="container relative">
-        <div className="img-container">
-          <img src={Img} alt="" className=" h-[50vh] w-full object-cover" />
+        <div className="img-container overflow-hidden">
+          <img
+            src={Img}
+            alt=""
+            className=" h-[50vh] w-full object-cover transition-all "
+          />
         </div>
-        <div className="text-container absolute h-full w-full flex items-end top-0 z-20 text-neutral-300 py-4 px-6 ">
+        <div className="text-container absolute h-full w-full flex items-end top-0 z-20 text-neutral-300 py-4 px-6">
           <div className="text w-full">
             <div className="text py-2  border-b-[1px] border-white/20">
-              <p className=" text-xl font-semibold ">Mountain Stories</p>
+              <p className=" font-semibold ">Mountain Stories</p>
               <p className=" text-sm font-light">
                 by <span>John Patrick</span>
               </p>

@@ -3,16 +3,16 @@ import ImgThree from "../imgs/img1.jpg";
 
 const ThirdSection = () => {
   return (
-    <section className=" md:flex lg:w-[1024px] lg:m-auto">
-      <div className="image-container order-1 md:w-[70%]">
+    <section className=" md:flex">
+      <div className="image-container order-1 md:w-[70%] lg:w-full xl:h-[500px]">
         <img
           src={ImgThree}
           alt=""
           className=" object-cover h-[45vh] w-full md:h-full"
         />
       </div>
-      <div className="text-container bg-white flex justify-center items-center h-[65vh]">
-        <div className="text-div text-white w-[85%] space-y-2 ">
+      <div className="text-container bg-white flex justify-center items-center h-[65vh] xl:h-[500px]">
+        <div className="text-div text-white w-[85%] space-y-2 lg:w-[75%] xl:w-[70%]">
           <p className=" font-oswald text-3xl font-bold m-auto text-neutral-900 uppercase">
             designed for everyone.
           </p>
