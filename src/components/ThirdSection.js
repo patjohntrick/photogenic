@@ -3,7 +3,7 @@ import ImgThree from "../imgs/img1.jpg";
 
 const ThirdSection = () => {
   return (
-    <section className=" md:flex">
+    <section className=" md:flex lg:w-[1024px] lg:m-auto">
       <div className="image-container order-1 md:w-[70%]">
         <img
           src={ImgThree}

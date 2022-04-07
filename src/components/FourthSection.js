@@ -6,7 +6,7 @@ import ThirdContent from "./FourthSectionContent/ThirdContent.js";
 
 const FourthSection = () => {
   return (
-    <section>
+    <section className=" md:grid md:grid-cols-2 lg:w-[1024px] lg:m-auto">
       <FirstContent />
       <SecondContent />
       <ThirdContent />

@@ -3,8 +3,8 @@ import ImgOne from "../imgs/img4.jpg";
 
 const FirstSection = () => {
   return (
-    <section className=" md:flex">
-      <div className="image-container order-1 md:w-[70%]">
+    <section className=" md:flex lg:w-[1024px] lg:m-auto">
+      <div className="image-container order-1 md:w-[70%] lg:w-[90vh]">
         <img
           src={ImgOne}
           alt=""

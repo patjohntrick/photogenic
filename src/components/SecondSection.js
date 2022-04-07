@@ -3,7 +3,7 @@ import ImageTwo from "../imgs/img2.jpg";
 
 const SecondSection = () => {
   return (
-    <section className=" md:flex">
+    <section className=" md:flex lg:w-[1024px] lg:m-auto">
       <div className="image-container md:w-[70%]">
         <img
           src={ImageTwo}
