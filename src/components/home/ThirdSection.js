@@ -1,5 +1,5 @@
 import React from "react";
-import ImgThree from "../imgs/img1.jpg";
+import ImgThree from "../../imgs/img1.jpg";
 
 const ThirdSection = () => {
   return (
@@ -12,7 +12,7 @@ const ThirdSection = () => {
         />
       </div>
       <div className="text-container bg-white flex justify-center items-center h-[65vh] xl:h-[500px]">
-        <div className="text-div text-white w-[85%] space-y-2 lg:w-[75%] xl:w-[70%]">
+        <div className="text-div text-white w-[85%] space-y-2 md:w-[70%] lg:w-[75%] xl:w-[70%]">
           <p className=" font-oswald text-3xl font-bold m-auto text-neutral-900 uppercase">
             designed for everyone.
           </p>

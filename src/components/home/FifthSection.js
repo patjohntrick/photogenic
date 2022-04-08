@@ -1,12 +1,12 @@
 import React from "react";
-import responsive from "../imgs/responsive-icon.png";
-import photo from "../imgs/photo-icon.png";
-import multimedia from "../imgs/multimedia-icon.png";
+import responsive from "../../imgs/responsive-icon.png";
+import photo from "../../imgs/photo-icon.png";
+import multimedia from "../../imgs/multimedia-icon.png";
 
 const FifthSection = () => {
   return (
-    <section className=" lg:grid lg:grid-cols-3 lg:w-[1024px] lg:py-8 lg:m-auto ">
-      <div className="responsive-container w-[300px] m-auto py-12 space-y-6">
+    <section className=" lg:flex lg:justify-center lg:w-[1024px] lg:py-12 lg:m-auto ">
+      <div className="responsive-container w-[300px] m-auto py-12 px-4 space-y-6 hover:shadow-lg transition-all">
         <div className="img-container">
           <img
             src={responsive}
@@ -23,7 +23,7 @@ const FifthSection = () => {
         </div>
       </div>
 
-      <div className="photo-container w-[300px] m-auto pb-12 lg:pb-0 space-y-6">
+      <div className="photo-container w-[300px] m-auto py-12 px-4 space-y-6 hover:shadow-lg transition-all">
         <div className="img-container">
           <img src={photo} alt="" className="m-auto object-cover scale-125" />
         </div>
@@ -36,7 +36,7 @@ const FifthSection = () => {
         </div>
       </div>
 
-      <div className="photo-container w-[300px] m-auto pb-12 lg:pb-0 space-y-6">
+      <div className="photo-container w-[300px] m-auto py-12 px-4 space-y-6 hover:shadow-lg transition-all">
         <div className="img-container">
           <img
             src={multimedia}

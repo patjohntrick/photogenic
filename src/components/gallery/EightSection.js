@@ -1,8 +1,9 @@
 import React from "react";
+import "../Styles/style.css";
 import { BsArrowUp } from "react-icons/bs";
-import Img from "../../imgs/img14.jpg";
+import Img from "../../imgs/img3.jpg";
 
-const FourthContent = () => {
+const EightSection = () => {
   return (
     <section>
       <div className="container relative">
@@ -10,15 +11,15 @@ const FourthContent = () => {
           <img
             src={Img}
             alt=""
-            className=" h-[50vh] w-full object-cover transition-all"
+            className=" h-[50vh] w-full object-cover transition-all "
           />
         </div>
-        <div className="text-container absolute h-full w-full flex items-end top-0 z-20 text-neutral-300 py-4 px-6 ">
+        <div className="text-container absolute h-full w-full flex items-end top-0 z-20 text-neutral-300 py-4 px-6">
           <div className="text w-full">
             <div className="text py-2  border-b-[1px] border-white/20">
-              <p className="  font-semibold ">Memorable Ceremony</p>
+              <p className=" font-semibold ">Mountain Stories</p>
               <p className=" text-sm font-light">
-                by <span>Anemone Hailey</span>
+                by <span>John Patrick</span>
               </p>
             </div>
 
@@ -39,4 +40,4 @@ const FourthContent = () => {
   );
 };
 
-export default FourthContent;
+export default EightSection;

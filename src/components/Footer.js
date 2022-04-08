@@ -36,15 +36,15 @@ const Footer = () => {
         </div>
 
         <div className="nav-links uppercase  lg:flex lg:justify-between lg:flex-col ">
-          <ul className="space-y-2 text-sm">
+          <ul className="space-y-2 text-sm font-semibold">
             <li>home</li>
             <li>gallery</li>
             <li>features</li>
             <li>pricing</li>
-            <div className="invite-button pt-8">
+            <div className="invite-button pt-8 pb-12 lg:pb-0">
               <a
                 href=""
-                className="bg-white text-neutral-900 py-2 px-4 uppercase font-bold font-oswald shadow"
+                className="bg-white text-neutral-900 py-2 px-4 uppercase font-bold font-oswald shadow text-base"
               >
                 get a invite
               </a>
