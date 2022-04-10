@@ -14,7 +14,7 @@ const FifthSection = () => {
             className="m-auto object-cover scale-125"
           />
         </div>
-        <div className="text-container text-center text-neutral-900 space-y-2 ">
+        <div className="text-container text-center text-black space-y-2 ">
           <p className=" font-bold capitalize">100% responsive</p>
           <p className=" font-light  ">
             No matter which the device you're on, our site is fully responsive

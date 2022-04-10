@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/style.css";
 import { BsArrowUp } from "react-icons/bs";
-import Img from "../../imgs/img3.jpg";
+import Img from "../../imgs/img20.jpg";
 
 const EightSection = () => {
   return (

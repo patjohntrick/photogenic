@@ -11,8 +11,8 @@ const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
   return (
-    <footer className=" bg-neutral-900">
-      <div className="footer-container  py-12 space-y-4 text-center text-neutral-300 lg:grid lg:grid-cols-3 lg:space-y-0 lg:w-[1000px] xl:w-[1100px] lg:m-auto">
+    <footer className=" bg-black">
+      <div className="footer-container  py-12 space-y-4 text-center text-white lg:grid lg:grid-cols-3 lg:space-y-0 lg:w-[1000px] xl:w-[1100px] lg:m-auto">
         <div className="logo-links-container space-y-4 mb-12 lg:flex lg:justify-between lg:flex-col lg:mb-0 lg:space-y-0 ">
           <div className="logo">
             <p className=" text-xl font-bold uppercase font-oswald  text-center lg:text-2xl ">

@@ -11,7 +11,7 @@ const FirstSection = () => {
           className=" object-cover h-[50vh] w-full md:h-full"
         />
       </div>
-      <div className="text-container bg-neutral-900 text-neutral-300 flex justify-center items-center h-[65vh] xl:h-[500px]  ">
+      <div className="text-container bg-black text-white flex justify-center items-center h-[65vh] xl:h-[500px]  ">
         <div className="text-div text-white space-y-2 w-[85%] md:w-[70%] lg:w-[75%] xl:w-[70%] ">
           <p className=" font-oswald text-3xl font-bold m-auto">
             CREATE AND SHARE YOUR PHOTO STORIES.
@@ -23,7 +23,7 @@ const FirstSection = () => {
           <div className="nav-contanct m-auto pt-3">
             <a
               href=""
-              className=" bg-neutral-200 text-neutral-900 py-2 px-4 uppercase font-bold font-oswald shadow"
+              className=" bg-white text-black py-2 px-4 uppercase font-bold font-oswald shadow"
             >
               read stories
             </a>

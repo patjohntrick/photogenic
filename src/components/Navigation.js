@@ -31,7 +31,7 @@ const Navigation = () => {
         <div className="nav-contanct hidden md:block">
           <a
             href=""
-            className=" bg-neutral-900 font-oswald text-neutral-300 py-2 px-4 uppercase font-bold shadow "
+            className=" bg-black font-oswald text-white py-2 px-4 uppercase font-bold shadow "
           >
             get an invite
           </a>

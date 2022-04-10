@@ -1,11 +1,11 @@
 import React from "react";
 import "../Styles/style.css";
 import { BsArrowUp } from "react-icons/bs";
-import Img from "../../imgs/img21.jpg";
+import Img from "../../imgs/img3.jpg";
 
-const NineSection = () => {
+const NineteenSection = ({ layer }) => {
   return (
-    <section>
+    <section className={layer > 1 ? "block" : "hidden"}>
       <div className="container relative">
         <div className="img-container overflow-hidden">
           <img
@@ -40,4 +40,4 @@ const NineSection = () => {
   );
 };
 
-export default NineSection;
+export default NineteenSection;
