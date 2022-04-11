@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FaFacebookSquare,
   FaTwitter,
@@ -36,11 +37,14 @@ const Footer = () => {
         </div>
 
         <div className="nav-links uppercase  lg:flex lg:justify-between lg:flex-col ">
-          <ul className="space-y-2 text-sm font-semibold">
-            <li>home</li>
-            <li>gallery</li>
-            <li>features</li>
-            <li>pricing</li>
+          <ul className="-space-y-2 text-sm font-base flex flex-col">
+            <Link to="/photogenic">home</Link>
+            <br />
+            <Link to="/gallery">gallery</Link>
+            <br />
+            <Link to="/pricing">pricing</Link>
+            <br />
+            <Link to="/contact">contact us</Link>
             <div className="invite-button pt-8 pb-12 lg:pb-0">
               <a
                 href=""
@@ -69,7 +73,7 @@ const Footer = () => {
               </button>
             </div>
           </form>
-          <p>Copyright {year}. All Rights Reserved</p>
+          <p className=" text-sm ">Copyright {year}. All Rights Reserved</p>
         </div>
       </div>
     </footer>

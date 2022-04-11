@@ -14,7 +14,7 @@ const Navigation = () => {
       <nav className="desktop-nav flex justify-between items-center m-auto min-h-[10vh] shadow px-4 lg:w-[900px] lg:shadow-none xl:w-[1000px] xl:m-auto">
         <div className="logo">
           <Link
-            to="/"
+            to="/photogenic"
             className=" text-xl lg:text-2xl font-bold uppercase font-oswald "
             onClick={() => setNavBar(false)}
           >
@@ -24,8 +24,8 @@ const Navigation = () => {
         <div className="nav-links hidden md:block">
           <ul className="flex font-bold text-sm uppercase space-x-6 text-neutral-900 items-center">
             <Link to="/gallery">gallery</Link>
-            <Link to="/features">features</Link>
             <Link to="/pricing">pricing</Link>
+            <Link to="/contact">contact us</Link>
           </ul>
         </div>
         <div className="nav-contanct hidden md:block">
@@ -53,12 +53,12 @@ const Navigation = () => {
               gallery
             </Link>
             <hr />
-            <Link to="/features" className="px-4" onClick={handleNavBar}>
-              features
-            </Link>
-            <hr />
             <Link to="/pricing" className="px-4" onClick={handleNavBar}>
               pricing
+            </Link>
+            <hr />
+            <Link to="/contact" className="px-4" onClick={handleNavBar}>
+              contact us
             </Link>
             <hr />
           </ul>
